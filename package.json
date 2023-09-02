@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-page -d src"
+    "deploy": "gh-pages -d src"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "gh-pages": "^6.0.0"
+  },
+  "dependencies": {
+    "fetch-node": "^0.0.1"
   }
 }
